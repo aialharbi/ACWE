@@ -17,7 +17,7 @@ To learn morphological features found in each word, we used a character n-grams 
   
   
 # How to use downloaded Models by Python:
-Firstly, unzip the models and locate them in your envioment work.
+Firstly, unzip the models and extract them into your working directory.
 Then..
 For the Word Model:
 
