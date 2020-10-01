@@ -14,6 +14,25 @@ To learn morphological features found in each word, we used a character n-grams 
 # Download Models
   - Word Model: [Click here](https://dl.orangedox.com/XXCr6SYm9eGeqtFHb3) Size: 2GB
   - Char Model: [Click here](https://dl.orangedox.com/AcFYHa27ijympcpJ0E) Size: 822MB
+  
+  
+# How to use downloaded Models by Python:
+Firstly, unzip the models and locate them in your envioment work.
+Then..
+For the Word Model:
+
+```sh
+from gensim.models import KeyedVectors
+word_model = KeyedVectors.load_word2vec_format('.../WordModel.txt')
+```
+
+For the Char Model
+```sh
+from gensim.models import FastText
+char_model = FastText.load('.../CharModel')
+```
+
+We will (soon) give a complete example for text classification using these models.
 
 # Citation
 For more details, please review our paper. If you use our models, please cite [our paper](https://link.springer.com/chapter/10.1007/978-3-030-51310-8_20):
