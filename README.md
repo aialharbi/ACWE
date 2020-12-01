@@ -36,20 +36,13 @@ char_model = FastText.load('.../CharModel')
 
 # Citation
 For more details, please review our paper. If you use our models, please cite [our paper](https://link.springer.com/chapter/10.1007/978-3-030-51310-8_20):
-
+```sh
 @inproceedings{alharbi2020combining,
-  
-  title={Combining Character and Word Embeddings for Affect in Arabic Informal Social Media Microblogs},
-  
-  author={Alharbi, Abdullah I and Lee, Mark},
-  
-  booktitle={International Conference on Applications of Natural Language to Information Systems},
- 
-  pages={213--224},
-  
-  year={2020},
-  
-  organization={Springer}
-  
+  title={Combining Character and Word Embeddings for Affect in Arabic Informal Social Media Microblogs}, 
+  author={Alharbi, Abdullah I and Lee, Mark}, 
+  booktitle={International Conference on Applications of Natural Language to Information Systems}, 
+  pages={213--224},  
+  year={2020}, 
+  organization={Springer}  
   }
-
+```
