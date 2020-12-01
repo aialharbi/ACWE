@@ -12,8 +12,8 @@ To learn individual words with their embeddings from our collected data, we used
 To learn morphological features found in each word, we used a character n-grams model (FastText). FastText differs from Word2Vec in its ability to learn the vectors of character n-grams or parts of words. This feature enables the model to capture words that have similar meanings but different morphological word formations. We assumed that each tweet was a sentence, so the input of the character-level model was a list of characters for each tweet.
 
 # Download Models
-  - Word Model: [Click here](https://dl.orangedox.com/XXCr6SYm9eGeqtFHb3) Size: 2GB
-  - Char Model: [Click here](https://dl.orangedox.com/AcFYHa27ijympcpJ0E) Size: 822MB
+  - Word Model: [Click here](https://dl.orangedox.com/XXCr6SYm9eGeqtFHb3) Size: 822MB 
+  - Char Model: [Click here](https://dl.orangedox.com/AcFYHa27ijympcpJ0E) Size: 2GB
   
   
 # How to use downloaded Models by Python:
